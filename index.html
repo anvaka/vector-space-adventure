@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TXT6313TGG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TXT6313TGG');
+</script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Description" content="This website allows you to explore vector fields in 3D and 4D spaces. Click anywhere to start emitting particles">
+    <meta name="keywords" content="vector field, visualization, anvaka, webgpu" />
+    <meta name="author" content="Andrei Kashcha">
+    <title>Vector Space Adventure</title>
+  </head>
+  <body>
+    <canvas id="scene"></canvas>
+    <div class="field-editor-panel hidden">
+      <div class="field-errors"></div>
+      <div class="field-editor"></div>
+      <div class="controls">
+        <button class="save">Jump</button>
+        <button class="close">Hide editor</button>
+      </div>
+    </div>
+    <button class="open-editor">Jump to a new Space</button>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
