@@ -17,6 +17,15 @@ Note: WebGPU is supported only by the latest version of Chrome and Edge.
 - `Space` - move down
 - `Mouse` - look around. When pointer is locked, hit `ESC` to unlock it.
 
+## Local development
+
+```
+git clone https://github.com/anvaka/vector-space-adventure
+cd vector-space-adventure
+npm install
+npm run dev
+```
+
 ## Support
 
 Don't hesitate to reach out with any questions either here or on [twitter](https://twitter.com/anvaka).
